@@ -1,0 +1,62 @@
+body {
+    background-color: aliceblue;
+
+}
+
+h2{
+    color: rgb(0, 0, 102);
+}
+
+h3 {
+    color: purple;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+div {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.head {
+    background: indigo;
+    color: thistle;
+    font-family: cursive;
+    border: 5px solid rgba(114, 10, 79, 0.726);
+    border-radius: 25px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.container {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.container .first img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container .second {
+    border: 5px double rgba(114, 10, 79, 0.726);
+    padding: 40px 30px 40px 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px grey;
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+
+.container .second p{
+    font-style: italic;
+}
